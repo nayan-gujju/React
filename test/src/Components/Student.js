@@ -3,18 +3,21 @@ import React from 'react'
 
 export default function Student() {
 
-    const handleClick = () => {
-        alert("+-/+-*-*/+-/-*/-*+*//*-/*-");
-    }
+    // const handleClick = () => {
+    //     state = {
+    //         change:false
+    //     };
+    //     this.state.
+    // }
+    
 
     const btnStyle = {
         color: "red",
     }
 
     const btnColor = {  
-        background: "yellow"
+        background: "yellow"    
     }
-
     return (
 
         <div>

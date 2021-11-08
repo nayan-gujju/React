@@ -7,15 +7,15 @@ export default function App() {
     const [repass, setRePass] = useState("")
 
     const handleChange = e => {
-        if(e.tareget.name == "name"){
+        if(e.tareget.name === "name"){
             console.log("=======name=========")
             setName(e.tareget.value)
         }
-        else if (e.tareget.name == "password"){
+        else if (e.tareget.name === "password"){
             console.log("=======password=========")
             setPass(e.target.value);
         }
-        else if (e.tareget.name == "repassword"){
+        else if (e.tareget.name === "repassword"){
             console.log("=======repassword=========")
             setRePass(e.target.value);
         }
